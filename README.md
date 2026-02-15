@@ -10,7 +10,7 @@ This work proposes a physical-semantics distillation framework for GNSS LOS/NLOS
 
 (3).These soft labels are used to perform knowledge distillation to train a lightweight MLP student model.
 
-The dataset is provided in Excel (.xlsx) format. Each row corresponds to one GNSS sample. GNSS measurement-level features are used as model inputs.
+The dataset is provided in JSON Lines (.jsonl) format, where each line represents one GNSS sample. Each row corresponds to one GNSS sample. GNSS measurement-level features are used as model inputs.
 Label column indicates LOS/NLOS state:
 
 | Label | Meaning                  |
